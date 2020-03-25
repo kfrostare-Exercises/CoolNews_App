@@ -15,8 +15,9 @@ require "sprockets/railtie"
 
 Bundler.require(*Rails.groups)
 
-module RailsDemo
+module AutChallengeApp
   class Application < Rails::Application
+
     config.generators do |generate|
       generate.helper false
       generate.assets false
@@ -25,7 +26,7 @@ module RailsDemo
       generate.routing_specs false
       generate.controller_specs false
     end
-
+    
     config.load_defaults 6.0
     config.generators.system_tests = nil
   end
