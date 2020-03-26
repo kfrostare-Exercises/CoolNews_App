@@ -17,6 +17,6 @@ I would like to see a list of articles
 
 ```
 As a visitor,
-when I click on an article,
+when I click on a article title,
 I would like to be presented with the entire article to read
 ```
