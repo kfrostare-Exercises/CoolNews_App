@@ -15,3 +15,8 @@ when I visit the application's landing page,
 I would like to see a list of articles
 ```
 
+```
+As a visitor,
+when I click on an article,
+I would like to be presented with the entire article to read
+```
